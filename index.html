@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adi Sircar</title>
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/691f1d9e8c.js" crossorigin="anonymous"></script>
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CK9NZNWE9Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CK9NZNWE9Q');
+</script>
+<body>
+<div id="header">
+  <div class="banner">
+  <div class="container">
+    <nav>
+      <img src="images/icon.png" style="width:80px;height:80px;" class="logo">
+
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">Meet Adi</a></li>
+        <li><a href="#services">Ideas</a></li>
+        <li><a href="#contact" class="btn">Connect</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" style="color:#9c5900;"   onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>The Man in the Arena</p>
+      <h1>This is <span>Adi</span> Sircar</h1>
+    </div>
+  </div>
+</div>
+</div>
+<!--------about-------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/user.jpg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">Who Am I</h1>
+        <p id="intro">I'm an engineer and business professional from Ashburn, Virginia.
+          <br><br>
+          
+          Only a few years ago, the highlight of my life was eating my first steak. 
+          Since then, during my pursuit of a hero's life, I've found myself swimming in a freezing lake, zooming along an international motorcycle road trip, 
+          detained under the suspicion of murder, shaking hands with corrupt politicans, jet skiing in Dubai, dining on the KwaZulu-Natal coast, and playing street soccer in the heart of Mexico City.
+          <br><br>
+          This is my quest for excellence, truth, and immortality.
+        </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Highlights</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span style="font-weight: bold">Open Source Intelligence</span><br>During the chaos of the botched American exit from Afghanistan, I investigated the Taliban's "disinformation" campaign 
+                using OSINT tools & techniques. Turns out the disinformation was coming from <a href="https://drive.google.com/file/d/1aJBnw8gttFJwHcC-996ssVySm0StDBLs/view" target=""_blank rel="noopener noreferrer" style="color:#ea9930; text-decoration: none;">elsewhere</a>...</li>
+              <li><span style="font-weight: bold">Global Trading Challenge</span><br>I set a record that my university's finance department will never come close to approaching. 
+                I left with a <a href="https://www.cmegroup.com/openmarkets/commodities/2022/Young-Traders-Turned-to-Crude-Oil-as-Supply-Demand-Imbalance-Grew.html" target="_blank" rel="noopener noreferrer" style="color: #ea9930; text-decoration: none;"> $1.29 million balance</a>, as well as the knowledge & confidence to become a great investor.</li>
+              <li><span style="font-weight: bold">Ocubloc</span><br>I founded
+                <a href="https://www.apex.vt.edu/spotlight/ocubloc/" target="_blank" rel="noopener noreferrer" style="color: #ea9930; text-decoration: none;"> Ocubloc</a>,
+                 where I worked on commercializing a new IP from Dr. Albert Yee that found nanopillars on a curved surface could prevent the growth of bacteria.</li>
+              <li><span style="font-weight: bold">Tutoring </span><br>I started helping the smartest kids in school with calculus, 
+                but found coaching students of determination basic algebra was much more impactful. My students aced state exam, which they had been failing for years, proving: Anyone can learn anything.</li>
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span style="font-weight: bold">2023-2024</span><br>AE at <a href="https://yelp.com" target="_blank" rel="noopener noreferrer" style="color: #ea9930; text-decoration: none;">Yelp</a>
+              <br>
+              <span style="font-size: smaller;">Unlocked new business opportunities for enterprises.</span>
+              </li>
+              <li><span style="font-weight: bold">2021-2023</span><br>SDR at <a href="https://purestorage.com" target="_blank" rel="noopener noreferrer" style="color: #ea9930; text-decoration: none;">Pure Storage</a>
+              <br>
+              <span style="font-size: smaller;">Nurtured relationships with key decision makers in the C suite and evangelized complex software solutions.</span>
+              </li>
+              <li><span style="font-weight: bold">2020</span><br>Engineering at <a href="https://dowjones.com" target="_blank" rel="noopener noreferrer" style="color: #ea9930; text-decoration: none;">Dow Jones</a>
+              <br>
+              <span style="font-size: smaller;">Ensured the stability, security, and availability of products like the Wall Street Journal.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span style="font-weight: bold">2021</span><br>Computer Science at Virginia Tech</li>
+              <li><span style="font-weight: bold">2018</span><br>Rock Ridge High School</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---services-->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title" style="color:black">Ideas</h1>
+    <div class="services-list">
+      <div onclick='window.location.href="#contact"'>
+        <i class="fa-solid fa-code"></i>
+        <h2>Digital Nomad Guide</h2>
+        <p>The tools you need to escape the matrix:</p>
+        <a href="#contact">Coming Soon</a>
+      </div>
+      <div onclick='window.location.href="https://adisircar.medium.com/the-official-guide-to-chinese-buffets-4beefbc5fd7a"'>
+        <i class="fa-solid fa-utensils"></i>
+        <h2>Buffet Guide</h2>
+        <p>The art of beating the buffet:</p>
+        <a href="https://adisircar.medium.com/the-official-guide-to-chinese-buffets-4beefbc5fd7a" target="_blank" rel="noopener noreferrer">Order Now</a>
+      </div>
+      <div onclick='window.location.href="https://medium.com/@adisircar/memoirs-of-a-hardees-fry-cook-d7effb840a0f"'>
+        <i class="fa-solid fa-rocket"></i>
+        <h2>Wagie Tales</h2>
+        <p>I've worked all kinds of minimum wage jobs - this was the wildest:</p>
+        <a href="https://medium.com/@adisircar/memoirs-of-a-hardees-fry-cook-d7effb840a0f" target="_blank" rel="noopener noreferrer">Read More</a>
+      </div>
+      <div onclick='window.location.href="https://medium.com/@adisircar/lessons-from-a-nomadic-tech-wizard-49a8867fe61d"'>
+        <i class="fa-solid fa-lightbulb"></i>
+        <h2>Startups</h2>
+        <p>Entrepreneurs are forced to start their own companies because they are fully unemployable:</p>
+        <a href="https://medium.com/@adisircar/lessons-from-a-nomadic-tech-wizard-49a8867fe61d" target="_blank" rel="noopener noreferrer">Read Why</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------contact-------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Connect</h1>
+         <!--<h3 style="color: #9c5900;">For those who seek A Hero's Life:  </h3>-->
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <button type="submit" class="btn btn2">Join</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/adisircar/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/AdiSircar"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://adisircar.medium.com/"><i class="fa-brands fa-medium"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzHTeFjf9AKXsNYBtUTvLPfXabguOycJQrrqEGrDIqzhbJr6ABMQgU0anoAUte-ukneSw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Welcome"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
